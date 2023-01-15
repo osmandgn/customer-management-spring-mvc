@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.tpe")
+@ComponentScan("com.dgn")
 public class WebMvcConfig implements WebMvcConfigurer {
 
     @Bean
