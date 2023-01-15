@@ -31,22 +31,22 @@ public class CustomerDAOImpl implements CustomerDAO {
         session.saveOrUpdate(theCustomer);
     }
 
-    @Override
-    public Customer getCustomer(int theId) {
-
-        Session session = sessionFactory.openSession();
-
-        Customer theCustomer = session.get(Customer.class, theId);
-        return theCustomer;
-    }
-
-    @Override
-    public void deleteCustomer(int theId) {
-
-        Session session = sessionFactory.openSession();
-
-        session.delete(session.get(Customer.class, theId));
-
-    }
+//    @Override
+//    public Customer getCustomer(int theId) {
+//
+//        Session session = sessionFactory.openSession();
+//
+//        Customer theCustomer = session.get(Customer.class, theId);
+//        return theCustomer;
+//    }
+//
+//    @Override
+//    public void deleteCustomer(int theId) {
+//
+//        Session session = sessionFactory.openSession();
+//
+//        session.delete(session.get(Customer.class, theId));
+//
+//    }
 
 }
