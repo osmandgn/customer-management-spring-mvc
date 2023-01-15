@@ -3,28 +3,33 @@ package com.dgn.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "customer_table")
+@Table(name="customer")
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name="id")
+    private int id;
 
-    @Column(name = "first_name")
+    @Column(name="first_name")
     private String firstName;
 
-    @Column(name = "last_name")
-    private  String lastName;
+    @Column(name="last_name")
+    private String lastName;
 
-    @Column(name = "email")
+    @Column(name="email")
     private String email;
 
-    public Customer(){
+    public Customer() {
 
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -53,11 +58,9 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+        return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
     }
+
 }
+
+
