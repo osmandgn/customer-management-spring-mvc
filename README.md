@@ -5,7 +5,7 @@
 
 <h2>Customer Registration System</h2>
 
-This is a customer registration system built using Hibernate and Spring MVC.
+This is a customer registration system built using <b>Hibernate</b> and <b>Spring MVC</b>.
 
 Requirements
 
