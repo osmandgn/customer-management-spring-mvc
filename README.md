@@ -20,7 +20,7 @@ Setup
 https://github.com/osmandgn/customer-management-spring-mvc.git
 
     Import the project into your preferred IDE.
-    Create a MySQL database and update the database configuration in src/main/resources/db.properties file.
+    Create a SQL database and update the database configuration in src/main/resources/db.properties file.
     
     Run the project using Tomcat server.
 
