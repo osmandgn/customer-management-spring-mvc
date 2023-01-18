@@ -1,8 +1,3 @@
-<img width="1006" alt="Screenshot 2023-01-16 at 01 30 23" src="https://user-images.githubusercontent.com/57635297/212570656-bd39cbb0-5e6e-48c5-a264-7f1ca95f048c.png">
-<img width="1015" alt="Screenshot 2023-01-16 at 01 31 32" src="https://user-images.githubusercontent.com/57635297/212570676-15d4430c-d520-4ee8-a133-e708d2e01660.png">
-
-
-
 <h2>Customer Registration System</h2>
 
 This is a customer registration system built using <b>Hibernate</b> and <b>Spring MVC</b>.
